@@ -17,7 +17,7 @@ docker run --rm -it hjerpbakk/dotnet-script --version
 Running the script `foo.csx` with one argument:
 
 ```shell
-docker run --rm -it hjerpbakk/dotnet-script foo.csx -- arg1
+docker run --rm -it --volume="$PWD:/scripts:ro" hjerpbakk/dotnet-script foo.csx -- arg1
 ```
 
 For further information, see [dotnet-script's own readme](https://github.com/filipw/dotnet-script/blob/master/README.md).

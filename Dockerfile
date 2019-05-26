@@ -4,4 +4,6 @@ RUN dotnet tool install -g dotnet-script
 
 ENV PATH="${PATH}:/root/.dotnet/tools"
 
+WORKDIR /scripts
+
 ENTRYPOINT ["dotnet-script"]
