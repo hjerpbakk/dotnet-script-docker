@@ -1,8 +1,9 @@
 # dotnet-script Docker Image
 
-This is a Docker image containing the latest version of dotnet-script:
+[![Pulls from DockerHub](https://img.shields.io/docker/pulls/hjerpbakk/dotnet-script.svg)](https://hub.docker.com/r/hjerpbakk/dotnet-script/)
 
-[hjerpbakk/dotnet-script](https://hub.docker.com/r/hjerpbakk/dotnet-script/)
+This is a [Docker image](https://hub.docker.com/r/hjerpbakk/dotnet-script/) containing the latest version of dotnet-script.
+
 
 ## Runing scripts
 
