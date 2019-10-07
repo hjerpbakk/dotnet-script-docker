@@ -14,3 +14,4 @@ jobs:
       run: |
         chmod +x test.sh
         ./test.sh
+      shell: bash
