@@ -1,6 +1,6 @@
 # dotnet-script Docker Image
 
-[![Pulls from DockerHub](https://img.shields.io/docker/pulls/hjerpbakk/dotnet-script.svg)](https://hub.docker.com/r/hjerpbakk/dotnet-script/)
+[![Build status](https://github.com/sankra/dotnet-script-docker/workflows/CI/badge.svg)](https://github.com/Sankra/dotnet-script-docker/actions) [![Pulls from DockerHub](https://img.shields.io/docker/pulls/hjerpbakk/dotnet-script.svg)](https://hub.docker.com/r/hjerpbakk/dotnet-script/)
 
 This is a [Docker image](https://hub.docker.com/r/hjerpbakk/dotnet-script/) containing the latest version of dotnet-script.
 
