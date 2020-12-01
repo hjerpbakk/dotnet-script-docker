@@ -7,8 +7,7 @@ jobs:
     runs-on: ${{ matrix.os }}
     strategy:
       matrix:
-        #os: [macOS-latest, ubuntu-latest, windows-latest]
-        os: [ubuntu-16.04]
+        os: [macOS-latest, ubuntu-latest]
     steps:
     - uses: actions/checkout@v1
     - name: Build and test container
