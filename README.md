@@ -7,12 +7,12 @@ This is a [Docker image](https://hub.docker.com/r/hjerpbakk/dotnet-script/) cont
 
 ## Runing scripts
 
-Example, shows the version of the dotnet script, 1.1.0 at the time of writing:
+Example, shows the version of the dotnet script, 1.2.1 at the time of writing:
 
 ```shell
 docker run --rm -it hjerpbakk/dotnet-script --version
 
-1.1.0
+1.2.1
 ```
 
 Running the script `foo.csx` with one argument:
@@ -31,4 +31,4 @@ Standing in this folder, use the following command to build the image locally:
 docker build -t hjerpbakk/dotnet-script:tag .
 ```
 
-Where `:tag` is an optional version number, like `:1.1.0`.
+Where `:tag` is an optional version number, like `:1.2.1`.
