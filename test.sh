@@ -1,4 +1,6 @@
 #!/usr/bin/env bash
+set -e
+
 docker build -t hjerpbakk/dotnet-script-local:1.3.1 .
 
 ARGUMENT="42"
